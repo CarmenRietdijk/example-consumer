@@ -16,9 +16,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "cross-env CI=true react-scripts test",
+    "test": "cross-env CI=true react-scripts test --debug",
     "eject": "react-scripts eject",
-    "test:pact": "cross-env CI=true react-scripts test --testTimeout 30000 pact.spec.js"
+    "test:pact": "cross-env CI=true react-scripts test --testTimeout 30000 --debug pact.spec.js"
   },
   "eslintConfig": {
     "extends": [
