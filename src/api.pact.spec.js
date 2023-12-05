@@ -61,7 +61,7 @@ describe('API Pact test', () => {
         .uponReceiving('a request to get a product')
         .withRequest({
           method: 'GET',
-          path: '/product/11',
+          path: '/product/111',
           headers: {
             Authorization: like('Bearer 2019-01-14T11:34:18.045Z')
           }
